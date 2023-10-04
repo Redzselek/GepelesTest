@@ -19,6 +19,12 @@ document.getElementById("bemenet").addEventListener("input", () => {
         var idozito = setInterval(()=>{
             ido++;
             document.getElementById("ido").innerHTML= ido/10+" mp"
+            var cpm = Math.round(szovegek[rnd].length/(ido/10)*100)/100;
+            var p = Math.floor((cpm/20)*100)
+            if (p > 100) {
+                p = 100
+            }
+            document.getElementById("belsosav").style.width = p+"%"
             if (szovegek[rnd] == document.getElementById("bemenet").value) {
                 clearInterval(idozito)
                 var cpm = Math.round(szovegek[rnd].length/(ido/10)*100)/100;

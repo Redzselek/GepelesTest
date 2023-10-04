@@ -1,4 +1,4 @@
-* :not(input)
+* :not(input), :not(#belsosav)
 {
     text-align: center;
 }
@@ -6,6 +6,31 @@
 #kesz
 {
     display: none;
+}
+
+#sav
+{
+    display: block;
+    margin: 25px auto;
+    width: 95%;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#belsosav
+{
+    
+    width: 1%;
+    height: 20px;
+    text-align: left;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#szamok
+{
+    word-spacing: 15em;
 }
 
 #bemenet
