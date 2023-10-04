@@ -1,0 +1,33 @@
+* :not(input)
+{
+    text-align: center;
+}
+
+#kesz
+{
+    display: none;
+}
+
+#bemenet
+{
+    font-size: 2em;
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#szoveg
+{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 10px;
+    -webkit-user-select: none; 
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#ido
+{
+    font-size: 1.6em;
+    padding: 10px;
+}
